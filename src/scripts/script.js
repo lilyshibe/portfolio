@@ -156,14 +156,4 @@ $(function() {
     $('body').bind('unsnap', function(e) {
         unsnap();
     });
-
-    if (window.console && window.console.log) {
-        //window.console.clear();
-        window.console.log(' ');
-        window.console.log('%cyo!', 'color: #040515; font-size:24px;font-family:georgia;font-weight:bold;');
-        window.console.log(' ');
-        window.console.log('%chaving fun looking through my code?', 'color: #64656F; font-size:16px;');
-        window.console.log('%cwarning, it\'s pretty bad.', 'color: #64656F; font-size:8px;');
-        window.console.log(' ');
-    }
 });
