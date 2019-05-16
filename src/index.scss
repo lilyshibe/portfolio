@@ -78,18 +78,18 @@ p,li {
 }
 
 mark, ::selection {
-    background: #000;
+    background: #676ae7;
     color: #f0f0f0;
     opcaity: 1;
 }
 
 a {
-    color: #f00;
+    color: #676ae7;
     text-decoration: none;
 }
 
 .light-inner {
-    background: rgba(255, 0, 0, 0.1);
+    background: rgba(103,106,231,0.1);
 }
 
 @supports (mix-blend-mode: screen) {
@@ -98,7 +98,7 @@ a {
     }
 
     .light-inner {
-        background: #ff0000;
+        background: #676ae7;
     }
 }
 
