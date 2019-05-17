@@ -1,6 +1,7 @@
 console.log('%c yo! ', 'background: lemonchiffon; border: 1px solid #fff');
 console.log('%c welcome to the console <3 ', 'background: lemonchiffon; border: 1px solid #fff');
-console.log('%c so uh. what\'cha doin here >w>', 'background: lavenderblush; border: 1px solid #000; padding: 4px; padding-top: 10px; padding-bottom: 8px;');
+console.log('%c if you wanna see the source code or whatever, you're better off checking the git repo. ', 'background: lemonchiffon; border: 1px solid #fff');
+console.log('%c the link is at the bottom of the page. love you! ', 'background: lemonchiffon; border: 1px solid #fff');
 
 var $ = require("jquery");
 
