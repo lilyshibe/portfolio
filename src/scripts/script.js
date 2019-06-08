@@ -176,3 +176,9 @@ const render = () => {
 };
 
 requestAnimationFrame(render);
+
+window.addEventListener('touchstart', function() {
+    light.style.display = none;
+    shadow.style.display = none;
+    innerCursor.style.display = none;
+}
