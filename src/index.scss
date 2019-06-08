@@ -29,8 +29,21 @@
 }
 
 * {
-    cursor: url(images/cursor.png) 3 3, auto !important;
+    // cursor: url(images/cursor.png) 3 3, auto !important;
+    cursor: none;
     box-sizing: border-box;
+}
+
+.cursor {
+    position: fixed;
+    pointer-events: none;
+    width: 5px;
+    height: 5px;
+    left: -2.5px;
+    top: -2.5px;
+    border-radius: 50%;
+    z-index: 12000;
+    background: #676ae7;
 }
 
 .right-align {
