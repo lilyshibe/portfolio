@@ -247,7 +247,7 @@ const navigate = () => {
 			opacity: [0, 1],
 			complete: function() {
 				$(".link").css("visibility", "visible");
-				$("body").css("overflow", "scroll");
+				$("body").css("overflow-y", "scroll");
 			}
 		})
 		.add({
